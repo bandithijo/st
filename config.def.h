@@ -5,10 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "0xProto Nerd Font:style=Regular:pixelsize:15:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font Bandit:style=Medium:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"Twitter Color Emoji:pixelsize=15:antialias=true:autohint=true",
+	"Noto Color Emoji:style=Regular:pixelsize=14:antialias=true:autohint=true",
+	// "Twitter Color Emoji:style=Regular:pixelsize=14:antialias=true:autohint=true",
+	// "JoyPixels:style=Regular:pixelsize=15:antialias=true:autohint=true",
+	// "0xProto Nerd Font:style=Regular:pixelsize:15:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
