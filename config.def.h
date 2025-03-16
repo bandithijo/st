@@ -171,9 +171,10 @@ static unsigned int cols = 100;
 static unsigned int rows = 30;
 
 /*
- * Default colour and shape of the mouse cursor
+ * Default colour and shape of the mouse cursor; default XC_term
+ * Other fonc cursor: https://tronche.com/gui/x/xlib/appendix/b/
  */
-static unsigned int mouseshape = XC_xterm;
+static unsigned int mouseshape = XC_left_ptr;
 static unsigned int mousefg = 7;
 static unsigned int mousebg = 0;
 
